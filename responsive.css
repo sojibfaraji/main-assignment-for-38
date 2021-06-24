@@ -1,0 +1,193 @@
+@media (max-width:1200px) {
+    .fixed-width {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        padding: 5px;
+    }
+}
+
+@media (max-width:1024px) {
+    .logo-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-right {
+        width: 100%;
+    }
+
+    .menu-right ul {
+        text-align: center;
+    }
+
+    .about-me-img img {
+        margin-left: 20px;
+    }
+
+    .about-me-text {
+        width: 60%;
+    }
+
+    .about-me-text h2 {
+        font-size: 25px;
+    }
+
+    .about-me-text h6 {
+        font-size: 20px;
+        margin: 18px 0px;
+    }
+
+    .about-me-text p {
+        font-size: 17px;
+        line-height: 33px;
+    }
+}
+@media (max-width:880px){
+    .about-me-text {
+        width: 55%;
+    }
+    .about-me-text p {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    
+}
+
+@media (max-width:768px) {
+    .about-me-text {
+        width: 45%;
+    }
+
+    .about-me-text h2 {
+        font-size: 25px;
+    }
+
+    .about-me-text h6 {
+        font-size: 20px;
+        margin: 9px 0px;
+    }
+
+    .about-me-text p {
+        font-size: 17px;
+        line-height: 20px;
+    }
+
+    .menu-right ul li a {
+
+        padding: 15px 15px;
+        border-right: 0;
+    }
+
+    .banner-text h2 {
+        font-size: 40px;
+    }
+
+    .banner-text p {
+        font-size: 30px;
+    }
+
+    .banner {
+        padding: 150px 0px;
+    }
+
+    .about-me-text h2 {
+        font-size: 25px;
+    }
+
+    .about-me-text h6 {
+        font-size: 20px;
+    }
+@media(max-width:640px){
+    .about-me-text {
+        width: 40%;
+    }
+    .about-me-text p {
+        font-size: 17px;
+        line-height: 14px;
+    }
+}
+   
+}
+@media (max-width:576px){
+    .logo-left {
+        text-align: left;
+        padding: 0px 10px;
+    }
+    .menu-right ul {
+        text-align: left;
+        line-height: 0;
+    }
+    .menu-right ul li {
+        display: block;
+    }
+    .menu-right ul li a {
+        padding: 15px 15px;
+        border-right: 0;
+    }
+    .banner-text h2 {
+        font-size: 25px;
+    }
+    .banner-text p {
+        font-size: 20px;
+    }
+    .about-me {
+        padding: 50px 0px;
+    }
+    .about-me-img {
+        width: 100%;
+        text-align: center;
+    }
+    .about-me-text {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+    .about-me-text h2 {
+        font-size: 25px;
+        padding-top: 30px;
+    }
+    .about-me-text h6 {
+        font-size: 20px;
+    }
+    .about-me-text p {
+        width: 90%;
+        margin: auto;
+        font-size: 17px;
+        line-height: 20px;
+    }
+    .service-content {
+        margin: 0px 20px;
+    }
+    .service {
+        padding: 50px 0px;
+    }
+    .service-box {
+       
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .copyright p {
+        font-size: 15px;
+    }
+    .social-icon span {
+        padding: 10px 10px;
+    }
+    
+}
+@media (max-width:350px){
+    .banner {
+        padding: 100px 0px;
+    }
+    .about-me-img img {
+        margin-left: 0;
+    }
+    .about-me-text p {
+        width: 90%;
+        line-height: 20px;
+    }
+    .social-icon span {
+        padding: 10px 5px;
+    }
+}

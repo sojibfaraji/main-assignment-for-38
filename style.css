@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* begain-start-css */
+
+.fixed-width{
+    max-width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+/* header */
+
+.header{
+    background: #f5deb3;
+}
+.logo-left{
+    float: left;
+    width: 30%;
+}
+.logo-left img{
+    width: 100px;
+    padding: 10px 0px;
+    filter: drop-shadow(1px 1px 3px #000);
+}
+.menu-right{
+    float: right;
+    width: 70%;
+}
+.menu-right ul{
+    text-align: right;
+}
+.menu-right ul li{
+    display: inline-block;
+}
+.menu-right ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+/* Banner Section */
+
+.banner{
+    background: url("https://i.ibb.co/0qwfS5N/intro-bg.jpg") no-repeat center center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.404);
+    background-blend-mode: overlay;
+    padding: 250px 0px;
+}
+.banner-text{
+    text-align: center;
+    color: #3498db;
+}
+.banner-text h2{
+    font-size: 55px;
+    text-shadow: 1px 1px 2px #000;
+}
+.banner-text p{
+    font-size: 40px;
+    text-shadow: 1px 1px 2px #000;
+}
+
+/* About-Me */
+
+.about-me{
+    padding: 100px 0px;
+}
+.about-me-img{
+    float: left;
+    width: 30%;
+}
+.about-me-img img{
+    width: 300px;
+}
+.about-me-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    width: 66%;
+}
+.about-me-text h2{
+    font-size: 30px;
+}
+.about-me-text h6 {
+    font-size: 25px;
+    margin: 25px 0px;
+}
+.about-me-text p {
+    font-size: 18px;
+    line-height: 40px;
+    text-align: justify;
+}
+
+/* Service Section */
+
+.service {
+    padding: 100px 0px;
+    background: #fffaf0;
+}
+.service-box {
+	float: left;
+	width: 31.3%;
+	text-align: center;
+	border: 2px dashed #ddd;
+	padding: 40px;
+	margin-left: 1%;
+	box-sizing: border-box;
+	border-radius: 75px 0px;
+	margin-right: 1%;
+}
+.service-box:last-child{
+    margin-right: 0;
+}
+.service-box span{
+    font-size: 40px;
+    color: #3498db;
+    border: 2px solid #3498db;
+    padding: 10px;
+    border-radius: 20px 0;
+}
+
+.service-box h2{
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.service-box p{
+    font-size: 17px;
+}
+
+/* Footer Section */
+
+.footer{
+    background: #2c3e50;
+    margin-bottom: 20px;
+}
+.footer-content{
+    padding: 20px;
+}
+.copyright{
+    float: left;
+    width: 50%;
+}
+.copyright p{
+    color: #fff;
+    font-size: 18px;
+}
+.social-icon{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+.social-icon span{
+    color: #fff;
+    padding: 10px 20px;
+}
